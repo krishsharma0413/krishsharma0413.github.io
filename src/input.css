@@ -60,7 +60,7 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 .ribbo {
     display: inline-block;
     margin-top: 5px;
-    animation: marquee 50s linear infinite;
+    animation: marquee 151s linear infinite;
 }
 
 
@@ -85,7 +85,7 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 }
 
 .skill-img {
-    @apply aspect-square w-fit p-2 border-2 rounded-lg;
+    @apply aspect-square w-fit flex justify-center place-items-center p-2 border-2 rounded-lg;
 }
 
 .flexbox {
@@ -111,7 +111,7 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 }
 
 .peak {
-    @apply w-[64px];
+    @apply w-[64px] md:w-[100px];
 }
 
 @-webkit-keyframes slide {

@@ -590,9 +590,8 @@ video {
   margin: 2rem;
 }
 
-.my-\[20px\] {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.m-\[20px\] {
+  margin: 20px;
 }
 
 .mx-3 {
@@ -603,6 +602,31 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.my-\[150px\] {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.my-\[200px\] {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.my-\[20px\] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .mb-10 {
@@ -641,6 +665,10 @@ video {
   margin-top: 20px;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -671,14 +699,6 @@ video {
 
 .min-h-\[100px\] {
   min-height: 100px;
-}
-
-.min-h-\[60vh\] {
-  min-height: 60vh;
-}
-
-.min-h-\[80vh\] {
-  min-height: 80vh;
 }
 
 .w-2 {
@@ -858,6 +878,14 @@ video {
   padding-left: 1.75rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1019,7 +1047,7 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 .ribbo {
   display: inline-block;
   margin-top: 5px;
-  animation: marquee 50s linear infinite;
+  animation: marquee 151s linear infinite;
 }
 
 .logoname {
@@ -1058,9 +1086,12 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 }
 
 .skill-img {
+  display: flex;
   aspect-ratio: 1 / 1;
   width: -moz-fit-content;
   width: fit-content;
+  place-items: center;
+  justify-content: center;
   border-radius: 0.5rem;
   border-width: 2px;
   padding: 0.5rem;
@@ -1088,6 +1119,12 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 
 .peak {
   width: 64px;
+}
+
+@media (min-width: 768px) {
+  .peak {
+    width: 100px;
+  }
 }
 
 /* change color of background on hover for ribbonright class */
@@ -1237,6 +1274,14 @@ body {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
   }
 
   .md\:px-\[20\%\] {
