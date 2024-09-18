@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -574,6 +578,10 @@ video {
   left: calc(0.25rem - 0.5px);
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -590,8 +598,8 @@ video {
   margin: 2rem;
 }
 
-.m-\[20px\] {
-  margin: 20px;
+.m-2 {
+  margin: 0.5rem;
 }
 
 .mx-3 {
@@ -629,6 +637,11 @@ video {
   margin-bottom: 50px;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -661,12 +674,16 @@ video {
   margin-top: 100px;
 }
 
-.mt-\[20px\] {
-  margin-top: 20px;
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
+.mt-\[0px\] {
+  margin-top: 0px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -697,6 +714,22 @@ video {
   height: .5;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
 .min-h-\[100px\] {
   min-height: 100px;
 }
@@ -717,6 +750,27 @@ video {
   width: 1px;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -725,12 +779,22 @@ video {
   flex-shrink: 0;
 }
 
+.border-spacing-28 {
+  --tw-border-spacing-x: 7rem;
+  --tw-border-spacing-y: 7rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .grid-cols-auto-fill-100 {
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
 }
 
 .grid-cols-auto-fit-100 {
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 }
 
 .flex-row {
@@ -747,6 +811,10 @@ video {
 
 .place-items-center {
   place-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -817,12 +885,12 @@ video {
   padding: 1rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-\[10px\] {
   padding: 10px;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-0 {
@@ -870,20 +938,26 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
 
 .pl-7 {
   padding-left: 1.75rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -914,8 +988,8 @@ video {
   font-size: 10em;
 }
 
-.text-\[1rem\] {
-  font-size: 1rem;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-\[2\.7rem\] {
@@ -936,10 +1010,6 @@ video {
 
 .text-\[50px\] {
   font-size: 50px;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
 }
 
 .text-\[7vw\] {
@@ -1070,7 +1140,7 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 .box {
   /* position: absolute;
     box-sizing: inherit; */
-  --tw-translate-y: 110%;
+  --tw-translate-y: 70%;
   --tw-translate-x: -25%;
   --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1272,16 +1342,32 @@ body {
     display: none;
   }
 
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .md\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[100px\] {
+    width: 100px;
+  }
+
+  .md\:w-\[263px\] {
+    width: 263px;
+  }
+
+  .md\:grid-cols-auto-fit-100 {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .md\:place-items-start {
+    place-items: start;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:px-\[20\%\] {
@@ -1297,15 +1383,25 @@ body {
     font-size: 105px;
   }
 
+  .md\:text-\[10rem\] {
+    font-size: 10rem;
+  }
+
   .md\:text-\[125px\] {
     font-size: 125px;
   }
 
-  .md\:text-\[20rem\] {
-    font-size: 20rem;
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .md\:text-\[25px\] {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
   }
 }

@@ -81,7 +81,7 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
 .box {
     /* position: absolute;
     box-sizing: inherit; */
-    @apply sm:rotate-0 sm:translate-x-0 sm:translate-y-0 -rotate-90 translate-y-[110%] translate-x-[-25%];
+    @apply sm:rotate-0 sm:translate-x-0 sm:translate-y-0 -rotate-90 translate-y-[70%] translate-x-[-25%];
 }
 
 .skill-img {
