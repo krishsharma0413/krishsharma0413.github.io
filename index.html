@@ -300,12 +300,25 @@
             <!-- <div class="hollow text-[7vw] text-text font-betaron py-2 px-2">
                 PROJECTS
             </div> -->
+
             <hr class="bg-text h-[.5]">
-            <a href="https://github.com/krishsharma0413/tinder-for-reviews/" target="_blank" class="project flex w-full">
+            <a href="https://github.com/krishsharma0413/decode4.0/" target="_blank"
+                class="project flex w-full">
+                DECODE 4.0
+            </a>
+            <hr class="bg-text h-[.5]">
+            <a href="https://github.com/krishsharma0413/secret-society/" target="_blank"
+                class="project flex w-full">
+                SECRET SOCIETY
+            </a>
+            <hr class="bg-text h-[.5]">
+            <a href="https://github.com/krishsharma0413/tinder-for-reviews/" target="_blank"
+                class="project flex w-full">
                 TINDER FOR REVIEWS
             </a>
             <hr class="bg-text h-[.5]">
-            <a href="https://github.com/krishsharma0413/DiscordLevelingCard/" target="_blank" class="project flex w-full">
+            <a href="https://github.com/krishsharma0413/DiscordLevelingCard/" target="_blank"
+                class="project flex w-full">
                 DISCORD LEVELING
             </a>
             <hr class="bg-text h-[.5]">
@@ -340,7 +353,7 @@
                 </h1>
                 <!-- <h1 class="text-text text-left font-betaron text-[50px] w-full text-wrap">••</h1> -->
                 <p class="text-text px-0 text-left text-wrap font-neueroman text-[14px] md:text-[18px]">CODING HAS
-                    BECOME A MORE OF A
+                    BECOME MORE OF A
                     <span class="hollow">FRIEND</span> THAN A TASK IN HAND.
                 </p>
 
@@ -381,6 +394,7 @@
                         </h1>
                         <p class="text-text text-5xl md:mx-8">
                             GIT<br>
+                            Docker<br>
                             Figma<br>
                             Blender<br>
                             Unity3D<br>
@@ -454,7 +468,6 @@
 
     <hr class="bg-text h-[.5]">
 
-
     <section id="content-section">
         <div class="flex w-full justify-center place-items-start my-[50px] text-left">
             <div class="p-4 w-full">
@@ -503,8 +516,38 @@
         </div>
     </section>
 
+    <hr class="bg-text h-[.5]">
 
-    <hr class="bg-text h-[.5] mt-[100px]">
+    <section id="certifications-section">
+        <div class="flex w-full justify-center place-items-start my-[20px] text-left">
+            <div class="p-4 w-full">
+
+                <h1 class="text-text leading-none text-left font-betaron text-[50px] w-full text-wrap md:text-[105px]">
+                    <span class="hollow">CERTIFICATES</span>
+                </h1>
+                <!-- <h1 class="text-text text-left font-betaron text-[50px] w-full text-wrap">••</h1> -->
+                <p class="text-text px-0 text-left text-wrap font-neueroman text-[14px] md:text-[18px]">NGL, I AM KINDA ADDICTED TO LEARNING.
+                </p>
+
+                <div class="relative w-full">
+                    <!-- add buttons that scrolls left and right -->
+                    <button class="left-0 kinda-button"
+                        onclick="document.getElementById('certificates-container').scrollBy(-300, 0)"> &lt; </button>
+                    <button class="right-0 kinda-button"
+                        onclick="document.getElementById('certificates-container').scrollBy(300, 0)"> &gt; </button>
+                    <div id="certificates-container" class="w-full flex md:px-10 overflow-scroll">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <hr class="bg-text h-[.5] mt-[50px]">
     <section id="contact-section">
         <div class="flex w-full justify-center place-items-start my-[100px] text-left">
             <div class="p-4 w-full md:w-[70%]">
@@ -556,6 +599,26 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // adding all the certificates using a for loop so i dont have to write everything myself.
+        let ccontainer = document.getElementById("certificates-container");
+        let allcerti = [
+            "Programming, Data Structures and Algorithms using Python-1.png",
+            "krish sharma - Intro to Machine Learning.png",
+            "Coursera ERB744CUEHP7-1.png",
+            "Coursera RGEWRKZTSPWE-1.png",
+            "Coursera CR295PLCXT94.jpg",
+            "Coursera JJT47NCEZJCA-1.png",
+            "Coursera QC9VJZXUTNSF-1.png",
+            "Coursera W67CBQLM39BR-1.png",
+        ]
+
+        for(x of allcerti){
+            ccontainer.innerHTML += `<img class='w-[300px] md:w-[500px] m-2' src='./dist/certificates/${x}'>`;
+        }
+        
+    </script>
 
 </body>
 
