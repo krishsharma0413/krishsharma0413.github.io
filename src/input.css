@@ -6,7 +6,6 @@
 npx tailwindcss -i src/input.css -o dist/output.css --watch
 */
 
-
 @font-face {
     font-family: 'Betaron Regular';
     src: url('../fonts/Betatron-Regular.woff2') format('woff2');
@@ -234,3 +233,9 @@ body {
     background-position: right bottom;
     color: #000;
 }
+
+.kinda-button {
+    @apply absolute px-4 bg-black hollow -translate-y-2/4 top-2/4 h-fit w-fit p-2 border-2 rounded-lg bottom-0 font-betaron text-white text-2xl;
+}
+
+/* make a marquee like animation for the certificates-container */

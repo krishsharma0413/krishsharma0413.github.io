@@ -2,7 +2,6 @@
 ! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
 */
 
-
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -603,6 +602,11 @@ video {
   margin: 2rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -618,14 +622,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .my-\[100px\] {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.my-\[150px\] {
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 .my-\[200px\] {
@@ -641,26 +645,6 @@ video {
 .my-\[50px\] {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .mb-10 {
@@ -691,8 +675,8 @@ video {
   margin-top: 100px;
 }
 
-.mt-\[150px\] {
-  margin-top: 150px;
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 
 .block {
@@ -780,16 +764,16 @@ video {
   place-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-scroll {
+  overflow: scroll;
 }
 
 .overflow-x-scroll {
@@ -852,10 +836,6 @@ video {
   padding: 10px;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -881,6 +861,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -899,11 +884,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .pb-3 {
@@ -942,6 +922,11 @@ video {
   font-family: Neue Roman;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-\[10em\] {
   font-size: 10em;
 }
@@ -956,10 +941,6 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
-}
-
-.text-\[20rem\] {
-  font-size: 20rem;
 }
 
 .text-\[30px\] {
@@ -984,44 +965,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-\[2em\] {
-  font-size: 2em;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .leading-none {
   line-height: 1;
 }
 
 .tracking-\[0\.2em\] {
   letter-spacing: 0.2em;
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em;
 }
 
 .tracking-widest {
@@ -1313,6 +1262,34 @@ body {
   color: #000;
 }
 
+.kinda-button {
+  position: absolute;
+  top: 50%;
+  bottom: 0px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 0.5rem;
+  border-width: 2px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: Betaron Regular;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+
+/* make a marquee like animation for the certificates-container */
+
 .last\:pb-0:last-child {
   padding-bottom: 0px;
 }
@@ -1328,11 +1305,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
   .md\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -1370,8 +1342,9 @@ body {
     justify-content: center;
   }
 
-  .md\:justify-between {
-    justify-content: space-between;
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:px-\[20\%\] {
