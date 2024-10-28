@@ -239,3 +239,7 @@ body {
 }
 
 /* make a marquee like animation for the certificates-container */
+
+#certificates-container{
+    scrollbar-width: none;
+}
