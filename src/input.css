@@ -62,6 +62,12 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
     animation: marquee 151s linear infinite;
 }
 
+.project-ribbo {
+    display: inline-block;
+    margin-top: 5px;
+    animation: marquee 50s linear infinite;
+}
+
 
 .logoname {
     display: inline-block;
@@ -242,4 +248,18 @@ body {
 
 #certificates-container{
     scrollbar-width: none;
+}
+
+.back-button {
+    background: linear-gradient(to right, white 50%, black 50%);
+    background-position: right bottom;
+    background-size: 210% 100%;
+    transition: all .7s ease;
+}
+
+
+.back-button:hover {
+    cursor: pointer;
+    background-position: left top;
+    color: #000;
 }
