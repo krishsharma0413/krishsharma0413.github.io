@@ -17,7 +17,7 @@ var data = {
     },
     "tinder-for-reviews": {
         "title": "TINDER FOR REVIEWS",
-        "description": `Tired of labelling your dataset the boring way? Introducing Tinder for Reviews. Now label your dataset as if you are scrolling on tinder! Okay so, to give you a little context about the project since everything think it's just tinder related project, I created this project to label the dataset for the sentiment (the "reviews" from certain social media handles and pages) analysis model I was working on in a little fun way.\n The only "tinder" this project has is the swipe left and right feature. Apart from that, I really loved this project since it was fun to make and understand more about CSS this way.\npersonal score [8.5/10]`,
+        "description": `Tired of labelling your dataset the boring way? Introducing Tinder for Reviews. Now label your dataset as if you are scrolling on tinder! Okay so, to give you a little context about the project since everyone thinks, it is just a dating related project. I created this project to label the dataset for the sentiment analysis (the "reviews" from certain social media handles and pages) model, I worked on this as a small fun project.\n The only "tinder" this project has is the swipe left and right feature. Apart from that, I really loved it since it was so fun to make and understand Data Science this way.\npersonal score [8.5/10]`,
         "techstack": "Python, FastAPI, SQL, JSON, HTML, CSS, JavaScript, Tailwind CSS, GIT, REST API",
         "link": ["GITHUB", "https://github.com/krishsharma0413/tinder-for-reviews/"],
         "image": "./dist/projects/tinderforreviews.png",
@@ -25,8 +25,8 @@ var data = {
     },
     "discordlevelingcard": {
         "title": "DISCORD LEVELING CARD",
-        "description": "Back in 2022, when I was still a discord bot developer. I saw this need for a library that helps create leveling cards for XP bots in python. JavaScript had its own library but not in Python and so I thought of making this project. It got pretty famous and the repository on GitHub is still stared by many people.\nPersonal Score: [9.5/10]",
-        "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, Docker, GIT, REST API, slowapi (rate-limits)",
+        "description": "Back in 2022, when I was still a discord bot developer. I saw this need for a library that helps create leveling cards for XP bots in python. JavaScript had its own library but not in Python and so I thought of making this project. It got pretty famous and the repository on GitHub is still stared by many people (45 stars as of 18 November 2024).\nPersonal Score: [9.5/10]",
+        "techstack": "Python, Pillow (Python Image Library), GIT",
         "link": ["GITHUB", "https://github.com/krishsharma0413/DiscordLevelingCard"],
         "image": "./dist/projects/discordlevelingcard.png",
         "next": ["SPOTIFY-DL WEBUI", "spotify-dl-webui"]
@@ -50,23 +50,23 @@ var data = {
     "nirvana": {
         "title": "NIRVANA",
         "description": "First Prize winner for the Game Jam hosted by Kothari International School. The theme was 'It wasn't supposed to do that...' and My team including Aditya (3D guy), Yash (Music guy) and me (Cool programmer guy). We created this game in 48 hours and it was a great experience. I learned a lot about game development and also how to work under pressure.\nPersonal Score: [8.5/10]",
-        "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, Docker, GIT, REST API, slowapi (rate-limits)",
+        "techstack": "Unity, C#, Blender, Cinema 4D, Fl Studio, GIT, Game Development",
         "link": ["ITCH.IO", "https://resetxd.itch.io/nirvana"],
         "image": "./dist/projects/nirvana.png",
         "next": ["resapi", "resapi"]
     },
     "resapi": {
         "title": "RESAPI",
-        "description": "Don't as too many questions. Very old project (mid 2022) and I have forgotten half of it. All I can remember is the love I got from the community for this project and also a crazy achievement for me which was hitting 1 million requests to the API within a month. I loved it when I used to spend hours and hours on working on this and actively asking the users what they liked and what next I should add.\nPersonal Score: [7.5/10]",
-        "techstack": "Python, FastAPI, HTML, CSS, JavaScript, BootStrap CSS, GIT, REST API, slowapi (rate-limits)",
+        "description": "Don't ask too many questions. Very old project (mid 2022) and I have forgotten half of it. All I can remember is the love I got from the community for this project and also a crazy achievement for me which was hitting 1 million requests on the API within a month. I loved it when I used to spend hours and hours on working on this project and actively asking the users what they liked and what next I should add.\nPersonal Score: [7.5/10]",
+        "techstack": "Python, FastAPI, Pillow (Python Image Library), aiohttp, HTML, CSS, JavaScript, BootStrap CSS, GIT, REST API, slowapi (rate-limits)",
         "link": ["GITHUB", "https://github.com/reset-xd/resetAPI"],
         "image": "./dist/projects/resapi.png",
         "next": ["incognito 2k22", "incognito-2k22"]
     },
     "incognito-2k22": {
         "title": "INCOGNITO 2K22",
-        "description": "While being the Technical Lead of my School CS Club, I had to make the websites for the events and landing website for the Club. Great memories I have and the reason behind my love for coding.",
-        "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, Docker, GIT, REST API, slowapi (rate-limits)",
+        "description": "While being the Technical Lead of my School Computer Science Club, I had to make the website for the events and landing website for the Club. Great memories I have and the reason behind my love for coding.",
+        "techstack": "HTML, CSS, JavaScript, BootStrap CSS, GIT",
         "link": ["", ""],
         "image": "./dist/projects/2k22.png",
         "next": ["decode 4.0", "decode4.0"]
