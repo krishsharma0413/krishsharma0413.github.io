@@ -1,10 +1,27 @@
 var data = {
+    "reverse": {
+        "title": "REVERSE TURING",
+        "description": `If you are talking to someone, can you tell whether it’s a human or an AI? This project revolves around that, you get 2 minutes to have a DM conversation and then guess who's on the other side.\nPersonal score: [9.2/10]`,
+        "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, Docker, GIT, REST API",
+        "link": ["GITHUB", "https://github.com/krishsharma0413/reverse/"],
+        "image": ["./dist/projects/reverse.png", "./dist/projects/reverse1.png", "./dist/projects/reverse2.png", "./dist/projects/reverse3.png", "./dist/projects/reverse4.png", "./dist/projects/reverse5.png"],
+        "next": ["decode 4.0", "decode4.0"]
+    },
     "decode4.0": {
         "title": "DECODE 4.0",
         "description": `An online cryptic hunt hosted under the banner of MUJ ACM. Personally, One of my favourite projects so far. Quite hectic since I had to manage the webserver from going down (0% downtime BTW) and create, manage and give all hints and lead confirmation to participants for the entire duration.\npersonal score [9/10]`,
         "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, Docker, GIT, REST API, slowapi (rate-limits)",
         "link": ["GITHUB", "https://github.com/krishsharma0413/decode4.0/"],
-        "image": "./dist/projects/decode4.png",
+        "image": [
+            "./dist/projects/decode4.png",
+            "./dist/projects/decode41.png",
+            "./dist/projects/decode42.png",
+            "./dist/projects/decode43.png",
+            "./dist/projects/decode46.png",
+            "./dist/projects/decode47.png",
+            "./dist/projects/decode44.png",
+            "./dist/projects/decode45.png",
+        ],
         "next": ["secret society", "secret-society"]
     },
     "secret-society": {
@@ -12,7 +29,11 @@ var data = {
         "description": `Another event hosted through MUJ ACM under ELICIT'24. This was a secret society themed treasure hunt event where participants had to solve a series of puzzles to get to the final answer. The website essentially was for scanning QRs which you find throughout the campus and it locks you on your own path so other QRs don't give you access to hints.\npersonal score [8/10]`,
         "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, Docker, GIT, REST API, slowapi (rate-limits)",
         "link": ["GITHUB", "https://github.com/krishsharma0413/secret-society/"],
-        "image": "./dist/projects/secret-society.png",
+        "image": [
+            "./dist/projects/secret-society.png",
+            "./dist/projects/secret-society1.png",
+            "./dist/projects/secret-society2.png"
+        ],
         "next": ["tinder for reviews", "tinder-for-reviews"]
     },
     "tinder-for-reviews": {
@@ -20,7 +41,7 @@ var data = {
         "description": `Tired of labelling your dataset the boring way? Introducing Tinder for Reviews. Now label your dataset as if you are scrolling on tinder! Okay so, to give you a little context about the project since everyone thinks, it is just a dating related project. I created this project to label the dataset for the sentiment analysis (the "reviews" from certain social media handles and pages) model, I worked on this as a small fun project.\n The only "tinder" this project has is the swipe left and right feature. Apart from that, I really loved it since it was so fun to make and understand Data Science this way.\npersonal score [8.5/10]`,
         "techstack": "Python, FastAPI, SQL, JSON, HTML, CSS, JavaScript, Tailwind CSS, GIT, REST API",
         "link": ["GITHUB", "https://github.com/krishsharma0413/tinder-for-reviews/"],
-        "image": "./dist/projects/tinderforreviews.png",
+        "image": ["./dist/projects/tinderforreviews.png", "./dist/projects/tinder1.png"],
         "next": ["discordlevelingcard", "discordlevelingcard"]
     },
     "discordlevelingcard": {
@@ -28,7 +49,7 @@ var data = {
         "description": "Back in 2022, when I was still a discord bot developer. I saw this need for a library that helps create leveling cards for XP bots in python. JavaScript had its own library but not in Python and so I thought of making this project. It got pretty famous and the repository on GitHub is still stared by many people (45 stars as of 18 November 2024).\nPersonal Score: [9.5/10]",
         "techstack": "Python, Pillow (Python Image Library), GIT",
         "link": ["GITHUB", "https://github.com/krishsharma0413/DiscordLevelingCard"],
-        "image": "./dist/projects/discordlevelingcard.png",
+        "image": ["./dist/projects/discordlevelingcard.png", "./dist/projects/discordlevelingcard1.png"],
         "next": ["SPOTIFY-DL WEBUI", "spotify-dl-webui"]
     },
     "spotify-dl-webui": {
@@ -36,7 +57,11 @@ var data = {
         "description": "A web interface for the Spotify Downloader API I created. Uses youtube-dl to install audio Mp3 while taking all the information like BPM, artist name, etc from Spotify API.\nPersonal Score: [8.2/10]",
         "techstack": "Python, FastAPI, HTML, CSS, JavaScript, Tailwind CSS, GIT, mutagen, REST API, websockets, youtube-dl, Spotify API",
         "link": ["GITHUB", "https://github.com/krishsharma0413/spotify-dl-webui"],
-        "image": "./dist/projects/spotifydlwebui.png",
+        "image": [
+            "./dist/projects/spotifydlwebui2.png",
+            "./dist/projects/spotifydlwebui1.png",
+            "./dist/projects/spotifydlwebui.png"
+        ],
         "next": ["sherlocked", "sherlocked"]
     },
     "sherlocked": {
@@ -44,7 +69,10 @@ var data = {
         "description": "Cryptic Hunt hosted during Incognito in 2021 and 2022. Cool project and due to this I got myself into back-end work and Databases.\nPersonal Score: [7/10]",
         "techstack": "Python, FastAPI, MongoDB, HTML, CSS, JavaScript, Tailwind CSS, REST API, slowapi (rate-limits)",
         "link": ["", ""],
-        "image": "./dist/projects/sherlocked.png",
+        "image": [
+            "./dist/projects/sherlocked.png",
+            "./dist/projects/sherlocked.png",
+        ],
         "next": ["nirvana", "nirvana"]
     },
     "nirvana": {
@@ -52,7 +80,10 @@ var data = {
         "description": "First Prize winner for the Game Jam hosted by Kothari International School. The theme was 'It wasn't supposed to do that...' and My team including Aditya (3D guy), Yash (Music guy) and me (Cool programmer guy). We created this game in 48 hours and it was a great experience. I learned a lot about game development and also how to work under pressure.\nPersonal Score: [8.5/10]",
         "techstack": "Unity, C#, Blender, Cinema 4D, Fl Studio, GIT, Game Development",
         "link": ["ITCH.IO", "https://resetxd.itch.io/nirvana"],
-        "image": "./dist/projects/nirvana.png",
+        "image": [
+            "./dist/projects/nirvana.png",
+            "./dist/projects/nirvana.png",
+        ],
         "next": ["resapi", "resapi"]
     },
     "resapi": {
@@ -60,7 +91,7 @@ var data = {
         "description": "Don't ask too many questions. Very old project (mid 2022) and I have forgotten half of it. All I can remember is the love I got from the community for this project and also a crazy achievement for me which was hitting 1 million requests on the API within a month. I loved it when I used to spend hours and hours on working on this project and actively asking the users what they liked and what next I should add.\nPersonal Score: [7.5/10]",
         "techstack": "Python, FastAPI, Pillow (Python Image Library), aiohttp, HTML, CSS, JavaScript, BootStrap CSS, GIT, REST API, slowapi (rate-limits)",
         "link": ["GITHUB", "https://github.com/reset-xd/resetAPI"],
-        "image": "./dist/projects/resapi.png",
+        "image": ["./dist/projects/resapi.png", "./dist/projects/resapi.png"],
         "next": ["incognito 2k22", "incognito-2k22"]
     },
     "incognito-2k22": {
@@ -68,8 +99,8 @@ var data = {
         "description": "While being the Technical Lead of my School Computer Science Club, I had to make the website for the events and landing website for the Club. Great memories I have and the reason behind my love for coding.",
         "techstack": "HTML, CSS, JavaScript, BootStrap CSS, GIT",
         "link": ["", ""],
-        "image": "./dist/projects/2k22.png",
-        "next": ["decode 4.0", "decode4.0"]
+        "image": ["./dist/projects/2k22.png", "./dist/projects/2k22.png"],
+        "next": ["Reverse Turing", "reverse"]
     },
 }
 
@@ -84,7 +115,44 @@ if (project === null || data[project] === undefined) {
         document.getElementsByClassName("title")[x].innerText = projectData.title;
     document.getElementById('description').innerText = projectData.description;
     document.getElementById('techstack').innerText = projectData.techstack;
-    document.getElementById("project-image").src = projectData.image;
+    // Infinite horizontal scroll for all project images
+    const imageContainer = document.getElementById("project-image-container");
+    imageContainer.innerHTML = ""; // Clear previous images
+
+    // Create image elements for all images
+    projectData.image.forEach((imgSrc) => {
+        const img = document.createElement("img");
+        img.src = imgSrc;
+        img.className = "project-image-scroll";
+        // img.style.height = "500px";
+        img.style.objectFit = "contain"; // Prevent squishing, maintain aspect ratio
+        imageContainer.appendChild(img);
+    });
+
+    // Duplicate images for seamless infinite scroll
+    projectData.image.forEach((imgSrc) => {
+        const img = document.createElement("img");
+        img.src = imgSrc;
+        img.className = "project-image-scroll";
+        img.style.objectFit = "contain"; // Prevent squishing, maintain aspect ratio
+        // img.style.height = "500px";
+        imageContainer.appendChild(img);
+    });
+
+    // Apply scrolling effect
+    imageContainer.style.display = "flex";
+    imageContainer.style.overflow = "hidden";
+    imageContainer.style.whiteSpace = "nowrap";
+    let scrollAmount = 0;
+    function scrollImages() {
+        scrollAmount -= .5;
+        if (scrollAmount <= 0) {
+            scrollAmount = imageContainer.scrollWidth / 2;
+        }
+        imageContainer.scrollLeft = scrollAmount;
+        requestAnimationFrame(scrollImages);
+    }
+    scrollImages();
 
     document.getElementById("link").href = projectData.link[1];
     document.getElementById('link').innerText = projectData.link[0];

@@ -38,13 +38,14 @@ npx tailwindcss -i src/input.css -o dist/output.css --watch
     letter-spacing: 3px;
 }
 
+/* Infinite marquee effect without blank space */
 @keyframes marquee {
     0% {
-        transform: translateX(0)
+        transform: translateX(0);
     }
 
     100% {
-        transform: translateX(-100%)
+        transform: translateX(-50%);
     }
 }
 
@@ -246,7 +247,7 @@ body {
 
 /* make a marquee like animation for the certificates-container */
 
-#certificates-container{
+#certificates-container {
     scrollbar-width: none;
 }
 
@@ -262,4 +263,8 @@ body {
     cursor: pointer;
     background-position: left top;
     color: #000;
+}
+
+.project-image-scroll {
+    @apply md:h-[500px];
 }
