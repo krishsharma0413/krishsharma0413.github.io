@@ -302,6 +302,14 @@
             </div> -->
 
             <hr class="bg-text h-[.5]">
+            <a href="/projects.html?id=syncord" class="project flex w-full">
+                SYNCORD
+            </a>
+            <hr class="bg-text h-[.5]">
+            <a href="/projects.html?id=vibecheck" class="project flex w-full">
+                VIBECHECK
+            </a>
+            <hr class="bg-text h-[.5]">
             <a href="/projects.html?id=reverse" class="project flex w-full">
                 REVERSE TURING
             </a>
@@ -496,9 +504,24 @@
                 </h1>
                 <!-- <h1 class="text-text text-left font-betaron text-[50px] w-full text-wrap">••</h1> -->
                 <p class="text-text px-0 text-left text-wrap font-neueroman text-[14px] md:text-[18px]">I LOVE WRITING
-                    BLOGS AND TECHNICAL DOCUMENTS.</p>
+                    BLOGS AND TECHNICAL DOCUMENTS BUT USUALLY DON'T GET THE TIME.</p>
 
                 <div class="grid justify-center md:flex md:justify-start md:place-items-start mt-4">
+                    <div class="border-2 m-2 w-fit border-text flex p-4 justify-center place-items-center">
+                        <div>
+                            <div class="flex w-full justify-center"><img src="./dist/syncord_blog.png"
+                                    class="w-[300px] md:w-[263px]"></div>
+                            <h1 class="text-text font-betaron text-[30px] leading-none mt-4 md:w-[500px] w-[300px]">
+                                [Project Breakdown] Syncord: Encrypted File Storage via Discord</h1>
+                            <p class="font-neueroman text-sm/6 text-zinc-400 md:w-[500px] w-[300px]">This is my attempt
+                                to start writing project breakdown blogs for my projects. This specifically covers
+                                syncord: A discord as a file storage system with encyrption, partitioning, etc</p>
+                            <a target="_blank"
+                                href="https://dev.to/krishsharma0413/project-breakdown-syncord-using-discord-as-file-storage-system-2l0c"
+                                class="text-text my-2 font-betaron border-2 flex justify-center w-full text-xl">READ</a>
+                        </div>
+                    </div>
+
                     <div class="border-2 m-2 w-fit border-text flex p-4 justify-center place-items-center">
                         <div>
                             <div class="flex w-full justify-center"><img src="./dist/genai.webp"
@@ -506,7 +529,7 @@
                             <h1 class="text-text font-betaron text-[30px] leading-none mt-4 md:w-[500px] w-[300px]">
                                 World of GenAI — Exploring the Depths of Stable Diffusion</h1>
                             <p class="font-neueroman text-sm/6 text-zinc-400 md:w-[500px] w-[300px]">Generative AI is
-                                fun! I learnt a lot about Stable Diffusion and wrote an article to each you as well!</p>
+                                fun! I learnt a lot about Stable Diffusion and wrote an article to teach you as well!</p>
                             <a target="_blank"
                                 href="https://medium.com/@mujacmsigai/world-of-genai-exploring-the-depths-of-stable-diffusion-2920428f233c"
                                 class="text-text my-2 font-betaron border-2 flex justify-center w-full text-xl">READ</a>
@@ -605,7 +628,7 @@
     <footer class="my-6">
         <div class="block text-center md:flex w-full justify-between px-4">
             <a class="font-neueroman text-text">
-                © KRISH SHARMA 2025.
+                © KRISH SHARMA 2026.
             </a>
             <div>
                 <a href="https://linkedin.com/in/krishsharma0413" class="font-neueroman text-text underline mx-3">
@@ -625,6 +648,8 @@
         // adding all the certificates using a for loop so i dont have to write everything myself.
         let ccontainer = document.getElementById("certificates-container");
         let allcerti = [
+            "Introduction to Machine Learning.jpg",
+            "Coursera W67CBQLM39BR-1.png",
             "Programming, Data Structures and Algorithms using Python-1.png",
             "krish sharma - Intro to Machine Learning.png",
             "clmsCertificate-1-1-1.png",
@@ -636,7 +661,6 @@
             "Coursera CR295PLCXT94.jpg",
             "Coursera JJT47NCEZJCA-1.png",
             "Coursera QC9VJZXUTNSF-1.png",
-            "Coursera W67CBQLM39BR-1.png",
         ]
 
         for (x of allcerti) {
