@@ -1,4 +1,20 @@
 var data = {
+    "syncord": {
+        "title": "SYNCORD",
+        "description": `Syncord is a CLI-based file synchronization and storage tool that uses Discord as an encrypted file storage. Think of partitioning of files >= 8MB, encryption, and Discord API and now link everything together\nPersonal score: [8.7/10]`,
+        "techstack": "Python, TUI, Discord REST API, Fernet, GIT",
+        "link": ["GITHUB", "https://github.com/krishsharma0413/syncord/"],
+        "image": ["./dist/projects/syncord1.png", "./dist/projects/syncord2.webp", "./dist/projects/syncord3.webp"],
+        "next": ["VibeCheck", "vibecheck"]
+    },
+    "vibecheck": {
+        "title": "VIBECHECK",
+        "description": `Got a girl but you don't really know if you are texting right? well... VibeCheck is a Python-based analytics engine that transforms exported WhatsApp chats into relationship insights, emotional intelligence summaries, and vibe patterns.\nIt combines classical statistics, sentiment analysis, and LLM-powered reasoning to generate per-person, per-session, and entire conversation reports revealing texting habits, emotions, and connection dynamics. Although, even after all this, she would not be saying yes.\nPersonal score: [9.8/10]`,
+        "techstack": "Python, OpenRouter REST API, Llama 3.3 70B, statistics, sentiment analysis, GIT",
+        "link": ["GITHUB", "https://github.com/krishsharma0413/vibecheck/"],
+        "image": ["./dist/projects/vibecheck1.png", "./dist/projects/vibecheck2.png", "./dist/projects/vibecheck3.png"],
+        "next": ["Reverse Turing", "reverse"]
+    },
     "reverse": {
         "title": "REVERSE TURING",
         "description": `If you are talking to someone, can you tell whether it’s a human or an AI? This project revolves around that, you get 2 minutes to have a DM conversation and then guess who's on the other side.\nPersonal score: [9.2/10]`,
@@ -100,7 +116,7 @@ var data = {
         "techstack": "HTML, CSS, JavaScript, BootStrap CSS, GIT",
         "link": ["", ""],
         "image": ["./dist/projects/2k22.png", "./dist/projects/2k22.png"],
-        "next": ["Reverse Turing", "reverse"]
+        "next": ["Syncord", "syncord"]
     },
 }
 
