@@ -124,7 +124,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const project = urlParams.get('id');
 
 if (project === null || data[project] === undefined) {
-    window.location.href = `/`;
+    window.location.href = `/classical.html`;
 } else {
     const projectData = data[project];
     for (let x = 0; x < document.getElementsByClassName("title").length; x++)
